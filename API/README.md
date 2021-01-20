@@ -1,4 +1,4 @@
-# api
+# API
 ## Running main.py
 First, we run the main.py in a cmd prompt window
 ## Running test.py
