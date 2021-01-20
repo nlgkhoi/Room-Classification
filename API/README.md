@@ -1,6 +1,6 @@
 # API
 ## Running main.py
-First, we run the main.py in a cmd prompt window
+First, we run the main.py by the command `python main.py` in a cmd prompt window
 ## Running test.py
 Then, we open another cmd prompt window and run `python test.py`
 ## Example
