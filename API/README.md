@@ -13,4 +13,4 @@ We will use the two pictures below to predict
 
 
 The output should look like this:
-![Image of Yaktocat](https://ibb.co/tZrxgXh)
+![Image of Yaktocat](https://i.ibb.co/KNvLdwG/sample-output.png)
