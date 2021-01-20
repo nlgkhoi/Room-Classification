@@ -13,4 +13,4 @@ These are 4 random pictures collected from Google images:
 
 
 #### The output should look like this:
-![Image of Yaktocat](https://i.ibb.co/KNvLdwG/sample-output.png)
+![Image of Yaktocat](https://i.ibb.co/9HDbxLx/sample-output.png)
