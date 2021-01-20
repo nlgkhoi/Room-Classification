@@ -5,7 +5,7 @@ First, we run the main.py by the command `python main.py` in a cmd prompt window
 Then, we open another cmd prompt window and run `python test.py`
 ## Example
 ### Predict 4 pictures
-We will use the two pictures below to predict
+These are 4 random picture collected from Google images:
 ![Image of Yaktocat](https://curatedinterior.com/wp-content/uploads/2019/05/Neutral-gray-bedroom-via-@jessicamendesdesign.jpg)
 ![Image of Yaktocat](https://www.nerolac.com/sites/default/files/how-to-protect-exterior-walls-from-rain-bannner-1.jpg)
 ![Image of Yaktocat](https://images.furnituredealer.net/img/products%2Fsignature_design_by_ashley%2Fcolor%2Fhavalance_146694352-bfeeri9ukle2o9r59wldn2g.jpg)
