@@ -43,9 +43,9 @@ def predict(file_path):
     return pred_name
 
 def batch_predict(urls):
-    print('Loading images...')
+    # print('Loading images...')
     download_images(urls, 'resources/')
-    print('Predicting...')
+    # print('Predicting...')
     predictions = []
     prediction_times = []
     for file_name in os.listdir('resources/'):
@@ -54,10 +54,10 @@ def batch_predict(urls):
         prediction_times.append(time.time() - starting_time)
     
     # Delete temporary files
-    print('Deleting temporary files')
+    # print('Deleting temporary files')
     file_names = os.listdir('resources/')
     for file_name in file_names:
         os.remove("resources/"+file_name)
     
-    print('Predict successfully')
+    # print('Predict successfully')
     return predictions, prediction_times

@@ -11,7 +11,6 @@ def home():
 def get():
     try:
         urls = request.json
-        print(urls)
         predictions, times = predict_image.batch_predict(urls)
         return jsonify(label=list(zip(urls, predictions, times))), 200
     except:
