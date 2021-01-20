@@ -32,16 +32,7 @@ def download_images(urls, file_path):
             download_image_ipg(url, file_path, str(i))
         except:
             pass
-        
-def predict(file_path):
-    img = image.load_img(file_path, target_size=(image_shape, image_shape))
-    x = image.img_to_array(img)
-    x = np.expand_dims(x, axis=0) / 255
-    images = np.vstack([x])
-    classes = model.predict(images)
-    pred_name = CATEGORIES[np.argmax(classes)]
-    return pred_name
-
+    
 def batch_predict(urls):
     # print('Loading images...')
     download_images(urls, 'resources/')
