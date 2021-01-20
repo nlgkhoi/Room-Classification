@@ -2,12 +2,15 @@
 ## Running main.py
 First, we run the main.py in a cmd prompt window
 ## Running test.py
-Then, we open another cmd prompt window and run
-### python test.py
-## Test with 2 url
+Then, we open another cmd prompt window and run `python test.py`
+## Example
+### Predict 4 pictures
 We will use the two pictures below to predict
-![Image of Yaktocat](https://images.victoriaplum.com/blog/blogpost-covers/8263637c-99ce-4601-9c55-b758b088033a.jpg?auto=format%2Ccompress&q=55)
-![Image of Yaktocat](https://i.pinimg.com/originals/2e/97/26/2e97268107fd65dde1dc699381eea1ed.jpg)
+![Image of Yaktocat](https://curatedinterior.com/wp-content/uploads/2019/05/Neutral-gray-bedroom-via-@jessicamendesdesign.jpg)
+![Image of Yaktocat](https://www.nerolac.com/sites/default/files/how-to-protect-exterior-walls-from-rain-bannner-1.jpg)
+![Image of Yaktocat](https://images.furnituredealer.net/img/products%2Fsignature_design_by_ashley%2Fcolor%2Fhavalance_146694352-bfeeri9ukle2o9r59wldn2g.jpg)
+![Image of Yaktocat](https://cdn.styleblueprint.com/wp-content/uploads/2020/08/SB-Memphis-KitchenUnlimited-StyleBlueprint_Bathrooms-1-1-scaled.jpg)
 
-I think you should use an
-`<addr>` element here instead.
+
+The output should look like this:
+![Image of Yaktocat](https://ibb.co/tZrxgXh)
