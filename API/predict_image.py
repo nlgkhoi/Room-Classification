@@ -46,12 +46,15 @@ def batch_predict(urls):
     # print('Loading images...')
     download_images(urls, 'resources/')
     # print('Predicting...')
-    predictions = []
-    prediction_times = []
+    images = []
     for file_name in os.listdir('resources/'):
-        starting_time = time.time()
-        predictions.append(predict("resources/"+file_name))
-        prediction_times.append(time.time() - starting_time)
+        img = image.load_img('resources/' + file_name, target_size=(image_shape, image_shape))
+        x = image.img_to_array(img)
+        x = np.expand_dims(x, axis=0) / 255
+        images.append(x)
+    # print(images)
+    predictions = model.predict(np.vstack(images))
+    labels = [CATEGORIES[np.argmax(x)] for x in predictions]
     
     # Delete temporary files
     # print('Deleting temporary files')
@@ -60,4 +63,4 @@ def batch_predict(urls):
         os.remove("resources/"+file_name)
     
     # print('Predict successfully')
-    return predictions, prediction_times
+    return labels

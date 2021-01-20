@@ -11,8 +11,8 @@ def home():
 def get():
     try:
         urls = request.json
-        predictions, times = predict_image.batch_predict(urls)
-        return jsonify(label=list(zip(urls, predictions, times))), 200
+        labels = predict_image.batch_predict(urls)
+        return jsonify(label=list(zip(urls, labels))), 200
     except:
         return jsonify(label="cannot predict"), 404
 
